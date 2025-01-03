@@ -1,0 +1,1 @@
+Instead of relying solely on inline styles, restructure the CSS to ensure the correct styles have sufficient specificity to override conflicting rules. Use more specific selectors such as class names or ID selectors to target elements precisely. Consider using the `!important` flag (although generally discouraged for its maintenance implications) as a last resort.
